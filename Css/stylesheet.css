@@ -1,0 +1,51 @@
+@charset "utf-8";
+body {
+	font-family:Verdana, Geneva, san-serif;
+}
+
+a {
+	text-decoration:none;
+}
+
+/*Width Settings*/
+.nav-hold {
+	width:95%;
+	max-width:1000px;
+	margin:0 auto;
+}
+
+/*Navigation*/
+.nav-bar {
+	width:100%;
+	background:#222;
+}
+
+.nav-hold {
+	overflow:hidden;
+}
+
+.nav-menu {
+	display:none;
+}
+
+.nav-logo {
+	float:left;
+	display:block;
+	padding:20px 10px;
+	color:#f9f9f9;
+	font-weight:600;
+} 
+
+.nav-list {
+	float:right;
+}
+
+.nav-list li {
+	float:left;
+}
+
+.nav-list li a {
+	display:block;
+	padding:20px 10px;
+	color:#f9f9f9;
+}
